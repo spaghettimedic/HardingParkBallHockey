@@ -1,2 +1,2 @@
 # HardingParkBallHockey
-This is a Single Page Application for the Harding Park Ball Hockey group.
+This is a Progressive Web Application for the Harding Park Ball Hockey group.
