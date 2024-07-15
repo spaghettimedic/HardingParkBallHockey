@@ -11,12 +11,14 @@ import About from "@pages/About";
 import { PATHS } from "@constants/index";
 
 import "./App.css";
+import Footer from "@components/Footer";
 
 const App: React.FC = () => {
   return (
     <>
       <Router>
         <NavBar />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path={PATHS.GAME_DAYS} element={<GameDays />} />
@@ -24,6 +26,8 @@ const App: React.FC = () => {
           <Route path={PATHS.LOGIN_SIGNUP} element={<LoginSignup />} />
           <Route path={PATHS.ABOUT} element={<About />} />
         </Routes>
+
+        <Footer />
       </Router>
     </>
   );

@@ -1,13 +1,19 @@
 body {
+  position: relative;
+  min-height: 100vh;
   margin: 0;
+  background: fixed;
   background-image: url("@assets//hpOverhead.jpeg");
-  background-size: 100%;
-  background-position: top;
+  background-color: var(--background-color);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header {
   display: flex;
   justify-content: center;
+  align-items: end;
   color: bisque;
 }
 
