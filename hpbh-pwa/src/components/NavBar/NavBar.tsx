@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { PATHS } from "../../constants";
+import { PATHS } from "@constants/index";
 import "./styles.css";
 
 const NavBar: React.FC = () => {
@@ -15,7 +15,7 @@ const NavBar: React.FC = () => {
 
       <ul>
         <li>
-          <Link to={PATHS.HOME} className="link">
+          <Link to="/" className="link">
             <h3>Home</h3>
           </Link>
         </li>

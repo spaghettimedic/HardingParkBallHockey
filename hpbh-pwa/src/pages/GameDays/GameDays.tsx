@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./styles.css";
-import GameDayCard from "../../components/GameDayCard";
+import GameDayCard from "@components/GameDayCard";
 
 const GameDays: React.FC = () => {
   const numOfGameDays = [0, 1, 2, 3, 4, 5];

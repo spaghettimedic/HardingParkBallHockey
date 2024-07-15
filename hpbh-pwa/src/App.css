@@ -1,6 +1,14 @@
+body {
+  margin: 0;
+  background-image: url("@assets//hpOverhead.jpeg");
+  background-size: 100%;
+  background-position: top;
+}
+
 .header {
   display: flex;
   justify-content: center;
+  color: bisque;
 }
 
 h1 {

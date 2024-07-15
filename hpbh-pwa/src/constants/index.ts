@@ -1,5 +1,4 @@
 export const PATHS = {
-  HOME: "/home",
   GAME_DAYS: "/game-days",
   GALLERY: "/gallery",
   ALBUM: "/gallery/:albumId",
